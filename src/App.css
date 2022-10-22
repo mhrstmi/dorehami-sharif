@@ -45,6 +45,12 @@ body {
 
 @media only screen and (max-width:1000px){
 
+  .feed .sticky {
+
+    width: 70%; /* Full width */
+  
+  }
+
   .tweetBox__input > input::placeholder {
     font-size: 13px;
   }
@@ -71,6 +77,12 @@ body {
 }
 
 @media only screen and (max-width:600px){
+  .feed .sticky {
+
+    width: 100%; /* Full width */
+  
+  }
+
   
 
   .center-bottom-nav .navigation{
