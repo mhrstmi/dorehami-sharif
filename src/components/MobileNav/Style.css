@@ -1,4 +1,5 @@
 .feed__header__mobile {
+   
     overflow: hidden;
     display: none;
     align-items: center;
@@ -15,7 +16,7 @@
   .sticky {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 70%; /* Full width */
+    width: 100%; /* Full width */
     border-bottom: none;
     border-top: none;
     
