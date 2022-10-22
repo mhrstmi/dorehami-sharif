@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dorehami-sharif/static/css/main.cc0c3d75.css",
+    "main.css": "/dorehami-sharif/static/css/main.16b35ab5.css",
     "main.js": "/dorehami-sharif/static/js/main.23007a36.js",
     "static/js/787.b2df6fe3.chunk.js": "/dorehami-sharif/static/js/787.b2df6fe3.chunk.js",
     "static/media/v4.jpg": "/dorehami-sharif/static/media/v4.deb902972daebda32208.jpg",
     "static/media/dorehami-sharif-logo.png": "/dorehami-sharif/static/media/dorehami-sharif-logo.cb4683147389b4b254ac.png",
     "index.html": "/dorehami-sharif/index.html",
-    "main.cc0c3d75.css.map": "/dorehami-sharif/static/css/main.cc0c3d75.css.map",
+    "main.16b35ab5.css.map": "/dorehami-sharif/static/css/main.16b35ab5.css.map",
     "main.23007a36.js.map": "/dorehami-sharif/static/js/main.23007a36.js.map",
     "787.b2df6fe3.chunk.js.map": "/dorehami-sharif/static/js/787.b2df6fe3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc0c3d75.css",
+    "static/css/main.16b35ab5.css",
     "static/js/main.23007a36.js"
   ]
 }
