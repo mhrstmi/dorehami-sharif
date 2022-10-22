@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    --twitter-color: #2c2cff;
+    --twitter-background: #e6ecf0;
+    
+  }
+  
+.home {
+
+    display: flex;
+    height: 100vh;
+   
+    
+  }
+
+
+  @media only screen and (max-width:1500px){
+    .center-bottom-nav {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+   
+
+    
+}
+
+
+@media only screen and (max-width:1200px){
+ 
+  .sidebar{
+    flex: 0;
+    display:none;
+    padding-left: 0px;
+  }
+
+  
+}
+
+
+@media only screen and (max-width:1000px){
+
+  .tweetBox__input > input::placeholder {
+    font-size: 13px;
+  }
+
+  .feed .feed__header{
+    display: none;
+  }
+ 
+  .widgets {
+    flex: 0;
+    display:none;
+  }
+
+  .feed .feed__header__mobile {
+    display: flex;
+  }
+
+  body{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+}
+
+@media only screen and (max-width:600px){
+  
+
+  .center-bottom-nav .navigation{
+    margin:0px 0px;
+
+  }
+
+  .feed {
+    width:550px;
+  }
+
+  .post{
+    width:550px;
+  }
+
+  .post .post__body > img {
+    max-width: 400px;
+  }
+
+  .tweetBox{
+    width:550px;
+  }
+
+  .feed .feed__header{
+    width:550px;
+  }
+  
+}
+
+
+@media only screen and (max-width:550px){
+  .feed {
+    width:500px;
+  }
+
+  .post{
+    width:500px;
+  }
+
+  .post .post__body > img {
+    max-width: 350px;
+  }
+
+  .tweetBox{
+    width:500px;
+  }
+
+  .feed .feed__header{
+    width:500px;
+  }
+  
+}
+
+
+
+@media only screen and (max-width:500px){
+  .feed {
+    width:450px;
+  }
+
+  .post{
+    width:450px;
+  }
+
+  .post .post__body > img {
+    max-width: 350px;
+  }
+
+  .tweetBox{
+    width:450px;
+  }
+
+  .feed .feed__header{
+    width:450px;
+  }
+  
+}
+
+@media only screen and (max-width:450px){
+  .feed {
+    width:400px;
+  }
+
+  .post{
+    width:400px;
+  }
+
+  .post .post__body > img {
+    max-width: 300px;
+  }
+
+  .tweetBox{
+    width:400px;
+  }
+
+  .feed .feed__header{
+    width:400px;
+  }
+  
+}
+
+
+@media only screen and (max-width:400px){
+  .feed {
+    width:350px;
+  }
+
+  .post{
+    width:350px;
+  }
+
+  .post .post__body > img {
+    max-width: 250px;
+  }
+
+  .tweetBox{
+    width:350px;
+  }
+
+  .feed .feed__header{
+    width:350px;
+  }
+  
+}
+
+@media only screen and (max-width:350px){
+  .feed {
+    width:300px;
+  }
+
+  .post{
+    width:300px;
+  }
+
+  .post .post__body > img {
+    max-width: 200px;
+  }
+
+  .tweetBox{
+    width:300px;
+  }
+
+  .feed .feed__header{
+    width:300px;
+  }
+  
+}
+
+
+/*
+background-color: #2b2b2b !important;
+*/

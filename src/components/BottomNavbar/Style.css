@@ -1,0 +1,132 @@
+:root{
+    --clr:#9FA8DA;
+    --clrbg:#311B92;
+    --clrAct:#311B92;
+  }
+
+
+
+  .center-bottom-nav {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+  .navigation{
+    position: fixed;
+    bottom: 0;
+    padding: 0 20px;
+    margin: 20px;
+    width: 400px;
+    height: 70px;
+    background: #121212;
+    border-radius: 10px;
+    
+  }
+  
+  .navigation > .links{
+    position: relative;
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  .navigation .links a{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .navigation .links a .icon{
+    position: relative;
+    display: block;
+    line-height: 80px;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+
+
+  
+  .navigation .links a.active .icon{
+    transform: translateY(-38px);
+    color: #ffffff;
+    
+  }
+  
+  .navigation .links a .name{
+    position: absolute;
+    transition: 0.3s;
+    transform:translateY(50px);
+    opacity: 0;
+    font-size: 0.95em;
+  }
+  
+  .navigation .links a.active .name{
+    transform: translateY(30px);
+    opacity: 1;
+    color: #ffffff;
+  }
+  
+  .menu-bg{
+    position: absolute;
+    top: -40px;
+    background: #0720fc;
+    width: 70px;
+    height: 70px;
+    border:7px solid #121212;
+    border-radius: 100%;
+    transition: 0.5s;
+  }
+  
+  .menu-bg::before{
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: -29.5%;
+    height: 8px;
+    width: 9.5px;
+    border: 6px solid #121212;
+    border-bottom-right-radius: 150px;
+    border-left:none;
+    border-top:none;
+  }
+  .menu-bg::after{
+    content: '';
+    position: absolute;
+    top: 45%;
+    right: -29.5%;
+    height: 8px;
+    width: 9.5px;
+    border: 6px solid #121212;
+    border-bottom-left-radius: 150px;
+    border-right:none;
+    border-top:none;
+  }
+  
+  .navigation .links a:nth-child(1).active ~ .menu-bg{
+    transform: translateX(calc(-70px *0));
+  }
+  
+  .navigation .links  a:nth-child(2).active ~ .menu-bg{
+    transform: translateX(calc(-70px *1));
+  }
+  
+  .navigation .links a:nth-child(3).active ~ .menu-bg{
+    transform: translateX(calc(-70px *2));
+  }
+  
+  .navigation .links a:nth-child(4).active ~ .menu-bg{
+    transform: translateX(calc(-70px*3));
+  }
+  
+  .navigation .links a:nth-child(5).active ~ .menu-bg{
+    transform: translateX(calc(-70px *4));
+  }
+
+ 

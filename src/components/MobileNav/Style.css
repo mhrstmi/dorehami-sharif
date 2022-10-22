@@ -1,0 +1,57 @@
+.feed__header__mobile {
+    overflow: hidden;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 100;
+    border:none;
+    padding: 5px 20px;
+    border-bottom: 8px solid var(--twitter-background);
+    border-top: 8px solid var(--twitter-background);
+    
+}
+  
+  .sticky {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: none;
+    border-top: none;
+    
+  }
+  
+  .feed__header__mobile a{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    color: #9e9d9d;
+    font-weight: bold;
+    font-size: 13px;
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .feed__header__mobile .active{ 
+    background-color:blue;
+    color: white;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo img{
+    width: 50px;
+    height:auto;
+
+  }
+  
+  
